@@ -11,3 +11,6 @@
 	path = dxtionary-db
 	url = https://hpb-htw@github.com/hpb-htw/dxtionary-db.git
 
+[submodule "wikinary-eintopf"]
+	path = wikinary-eintopf
+	url = https://hpb-htw@github.com/hpb-htw/wikinary-eintopf.git
