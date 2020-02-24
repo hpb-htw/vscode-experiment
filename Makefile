@@ -64,6 +64,7 @@ $(DICT_SQLITE): $(IMPORT_RAW_DICT) $(RAW_CSV_GZ)
 inject-bin:$(ALL_BIN)
 
 $(ALL_BIN):.download-bin
+	chmod +x $(ALL_BIN)
 
 .download-bin:
 	@echo "========================================================"
